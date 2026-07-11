@@ -16,6 +16,7 @@
     />
     <link rel="stylesheet" href="./Assets/index.css" />
   </head>
+
   <body>
     <section id="Home">
       <div class="container">
@@ -66,6 +67,7 @@
               alt="Profile image"
               width="1000"
               height="600"
+              loading="eager"
             />
           </div>
           <div class="col-lg-6">
@@ -138,10 +140,30 @@
     </div>
 
     <section id="Contact">
-      <div class="container">
-        <div class="row">
+      <div class="container py-5 col-md-6">
+        
+        <div class="row py-5">
+          <h1 class="title">
+            Reach out to me below for further questions </br> or project
+            collaborations
+          </h1>
+        </div>
+        
+        <div class="row py-5 justify-content-center">
+
           <div class="mb-3">
-            <label for="exampleFormControlInput1" class="form-label"
+            <label for="exampleFormControlInput1" class=" form form-label"
+              >Full name</label
+            >
+            <input
+              type="name"
+              class="form-control"
+              id="exampleFormControlInput1"
+            />
+          </div>
+
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form form-label"
               >Email address</label
             >
             <input
@@ -152,13 +174,13 @@
             />
           </div>
           <div class="mb-3">
-            <label for="exampleFormControlTextarea1" class="form-label"
-              >Example textarea</label
+            <label for="exampleFormControlTextarea1" class="form form-label"
+              >Message</label
             >
             <textarea
               class="form-control"
               id="exampleFormControlTextarea1"
-              rows="3"
+              rows="8"
             ></textarea>
           </div>
         </div>
