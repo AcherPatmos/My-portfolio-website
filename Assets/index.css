@@ -3,7 +3,7 @@
 }
 
 body {
-  background-color: #f6ede1;
+  background-color: #f9f2e9;
 }
 
 .title {
@@ -41,13 +41,11 @@ body {
 
 .text:hover {
   color: #92400e;
-  text-shadow: #92400e;
 }
 
 .title:hover {
   cursor: pointer;
   color: #92400e;
-  text-shadow: #92400e;
 }
 
 .BTN {
@@ -74,4 +72,18 @@ h1 {
 .form {
   font-weight: bold;
   color: #745e47;
+}
+
+.form-btn {
+  border: solid 1px #745e47;
+  color: #745e47;
+  border-radius: 25px;
+  font-weight: bold;
+}
+
+.form-btn:hover {
+  cursor: pointer;
+  border: solid 1px #92400e;
+  color: #92400e;
+  /* text-shadow: #92400e */
 }
