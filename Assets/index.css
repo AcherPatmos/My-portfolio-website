@@ -108,3 +108,19 @@ h1 {
 .E-logo {
   height: 50px;
 }
+
+.hobbies {
+  height: 600px;
+  object-fit: cover;
+  object-position: top;
+}
+
+.carousel-left {
+  text-align: left;
+  font-weight: 900;
+}
+
+.carousel-right {
+  text-align: right;
+  font-weight: 900;
+}
