@@ -115,6 +115,12 @@ h1 {
   object-position: top;
 }
 
-.carousel {
+.carousel-left {
   text-align: left;
+  font-weight: 900;
+}
+
+.carousel-right {
+  text-align: right;
+  font-weight: 900;
 }
