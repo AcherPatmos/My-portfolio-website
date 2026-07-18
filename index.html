@@ -18,33 +18,47 @@
   </head>
 
   <body>
+
     <section id="Home">
+      <div class="container">
+        <header id="header" class="py-3">
+          <nav class="navbar navbar-expand-lg p-0">
+            <div class="container-fluid p-0 justify-content-end justify-content-lg-center">
 
-      <div class="container"> 
-        <header class="d-flex justify-content-center py-3"> 
+              
+              <button class="navbar-toggler" type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav"
+                    aria-controls="navbarNav"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
 
-            <ul class="nav nav-pills"> 
-              <li class="nav-item">
-                <a href="#About" class="nav-underlinee text nav-link" aria-current="page">Home</a>
-              </li> 
-              <li class="nav-item">
-                <a href="#Education" class="nav-underlinee text nav-link">Education</a>
-              </li> 
-              <li class="nav-item">
-                <a href="#" class="nav-underlinee text nav-link">Projects</a>
-              </li> 
+              
+              <div class="collapse navbar-collapse flex-grow-0" id="navbarNav">
+                <ul class="nav nav-pills flex-row">
+                  <li class="nav-item">
+                    <a href="#Home" class="nav-underlinee text nav-link" aria-current="page">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#Education" class="nav-underlinee text nav-link">Education</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#Projects" class="nav-underlinee text nav-link">Projects</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#Hobbies" class="nav-underlinee text nav-link">Hobbies & Interests</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#Contact" class="nav-underlinee text nav-link">Contact</a>
+                  </li>
+                </ul>
+              </div>
 
-              <li class="nav-item">
-                <a href="#Hobbies" class="nav-underlinee text nav-link">Hobbies & Interests</a>
-              </li>
-
-              <li class="nav-item">
-                <a href="#Contact" class="nav-underlinee text nav-link">Contact</a>
-              </li>
-
-            </ul>
-         
-        </header> 
+            </div>
+          </nav>
+        </header>
       </div>
     </section>
 
@@ -52,26 +66,28 @@
 
       <section id="About">
 
-        <div class="row">
-          <div class="col d-flex justify-content-center align-items-center">
+        <div class="container">
 
-            <div class="avatar">
-              <img src="./Assets/Pati_pro.jpeg"class="pro-image rounded-circle"/>
-            </div>
+          <div class="row">
+            <div class="col d-flex justify-content-center align-items-center">
+
+              <div class="avatar">
+                <img src="./Assets/Pati_pro.jpeg"class="pro-image rounded-circle"/>
+              </div>
             
+            </div>
           </div>
-        </div>
 
-        <div class="px-4 my-3 text-center"> 
-          <h1 class="title display-5 fw-bold">Patmos Acher Mpakaniye
-          </h1> 
-          <div class="col-lg-6 mx-auto"> 
-            <p class="text lead mb-4">I am a curious learner and a tech enthusiast who enjoys knowing how systems work and what makes them break as well.  I strive to produce work that is technically accurate, efficient and well communicated!
-            </p> 
-            <div class="d-grid gap-2 d-sm-flex    justify-content-sm-center"> 
-              <button type="button" class="BTN btn btn-lg px-4 gap-3"><a href="#Contact"class="nav-link">Contact me</a></button>  
+          <div class="px-4 my-3 text-center"> 
+            <h1 class="title display-5 fw-bold">Patmos Acher Mpakaniye</h1>
+            <div class="col-lg-6 mx-auto"> 
+              <p class="text lead mb-4">I am a curious learner and a tech enthusiast who enjoys knowing how systems work and what   makes them break as well.  I strive to produce work that is technically accurate, efficient and well communicated!
+              </p> 
+              <div class="d-grid gap-2 d-sm-flex    justify-content-sm-center"> 
+                <button type="button" class="BTN btn btn-lg px-4 gap-3"><a href="#Contact"class="nav-link">Contact me</a></button>  
+              </div> 
             </div> 
-          </div> 
+          </div>
         </div>
         
       </section>
@@ -95,6 +111,8 @@
           </div> 
         </div>
       </section>
+
+      <section id="Projects"></section>
 
       <section id="Hobbies">
 
@@ -176,10 +194,9 @@
 
         <div class="container py-5 col-md-6">
           
-          <div class="row py-5">
+          <div class="row py-3">
             <h1 class="title">
-              Or alternatively send a message below </br> for further questions or project
-              collaborations
+              Or alternatively send a message below </br> for further questions
             </h1>
           </div>
           
@@ -203,7 +220,7 @@
               <input
                 type="email"
                 class="form-control"
-                id="exampleFormControlInput1"
+                id="exampleFormControlInput2"
                 placeholder="name@example.com"
               />
             </div>
@@ -219,7 +236,7 @@
             </div>
           </div>
 
-          <div class="row justify-content-center row-cols-md-4">
+          <div class="row  justify-content-center row-cols-3  row-cols-lg-4">
 
             <button type="button" class="form-btn btn">Send message</button>
 
