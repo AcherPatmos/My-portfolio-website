@@ -1,0 +1,199 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ffffff;
+  height: 100vh;
+}
+
+.navbar {
+  padding-right: 3rem;
+  padding-left: 3rem;
+  height: 80px;
+  display: flex;
+  align-items: center;
+}
+
+img {
+  height: 40px;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+a {
+  font-family: "Geist", sans-serif;
+  text-decoration: none;
+  color: rgb(15, 15, 15);
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.nav-action {
+  margin-left: auto;
+}
+.nav-links {
+  margin-left: 50px;
+}
+
+a:hover {
+  color: rgb(157, 157, 157);
+}
+
+Button {
+  margin: 8px;
+  border-radius: 20px;
+  padding: 15px;
+  cursor: pointer;
+  font-family: "Geist", sans-serif;
+}
+.dark {
+  background-color: #000000;
+  color: #ffffff;
+  font-weight: bold;
+  width: 180px;
+  padding: 11px;
+}
+
+.light {
+  background-color: #ffffff;
+  color: #000000;
+  font-weight: bold;
+  border: 0.5px solid gray;
+  width: 180px;
+  padding: 11px;
+}
+
+.light:hover {
+  color: #ffffff;
+  background-color: #000000;
+}
+
+.hidden {
+  border: none;
+  font-weight: 400;
+  font-size: medium;
+  background-color: #ffffff;
+}
+.hidden:hover {
+  color: rgb(157, 157, 157);
+}
+
+main {
+  padding: 15px;
+}
+
+.hero-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+  padding: 0px;
+  margin-top: 30px;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.grid-item-one {
+  padding: 20px;
+}
+
+.grid-item-two {
+  padding: 20px;
+}
+
+.hero-part-one {
+  align-self: start;
+  width: 800px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.hero-image {
+  margin-right: 10px;
+}
+
+.hero-image img {
+  height: 370px;
+}
+
+p {
+  font-family: "DM Sans", sans-serif;
+  font-size: 17px;
+  font-weight: 450;
+}
+h1 {
+  font-family: "Geist", Arial, sans-serif;
+  font-size: 50px;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+
+.hero-part-one p {
+  color: rgb(157, 157, 157);
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.hero-button {
+  margin-top: 20px;
+}
+
+.hero-button .dark {
+  width: 150px;
+  padding: 15px;
+  border-radius: 30px;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.review {
+  display: flex;
+  gap: 5px;
+  margin-top: 15px;
+}
+
+.review img {
+  height: 20px;
+}
+
+.review p {
+  color: rgb(157, 157, 157);
+  font-size: 15px;
+  font-weight: 450;
+}
+
+li {
+  position: relative;
+}
+
+.nav-dropdown {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+}
+
+li:hover .nav-dropdown {
+  display: block;
+}
+
+.dropdown-panel {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.panel-item-one {
+  outline: 1px solid black;
+}
