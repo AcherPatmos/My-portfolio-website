@@ -84,6 +84,8 @@ h1 {
   color: #745e47;
   border-radius: 25px;
   font-weight: bold;
+  min-width: 120px;
+  padding: 0.5rem 1.5rem;
 }
 
 .form-btn:hover {
@@ -127,4 +129,8 @@ h1 {
 
 #Contact {
   margin-top: 30px;
+}
+
+#Projects {
+  margin-bottom: 120px;
 }
