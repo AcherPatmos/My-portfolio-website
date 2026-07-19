@@ -3,7 +3,7 @@
 A personal portfolio website built with HTML, CSS, Bootstrap 5, and vanilla JavaScript. 
 The site introduces me, showcases my education, projects, and interests, and provides a way for visitors to get in touch.
 
-Live Site: [https://acherpatmos.github.io/My-portfolio-website/#Home](url)
+Live Site: https://acherpatmos.github.io/My-portfolio-website/
 
 
 ## Overview
